@@ -1,0 +1,54 @@
+body {
+  font-family: Poppins;
+}
+header {
+  background-color: #031535;
+}
+.navbar a:hover {
+  color: #e48400;
+}
+header i:hover {
+  color: #ffc107;
+}
+.footer a:hover {
+  color: #e48400;
+}
+.nav-link {
+  color: white;
+}
+#back {
+  background: #031535;
+  opacity: 0.8;
+}
+
+.start-40 {
+  margin-left: 10%;
+}
+.mt-6 {
+  margin-top: 13%;
+  margin-left: 10%;
+}
+.mt-10 {
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
+#features {
+  background-image: url("../images/features.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.footer {
+  background-color: #031535;
+}
+
+@media only screen and (max-width: 992px) {
+  .mt-7 {
+    margin-top: -5%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .mt-7 {
+    margin-top: -5%;
+  }
+}
